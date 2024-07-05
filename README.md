@@ -23,3 +23,17 @@ Outputs:
 ### 3. Generate labeled mask image
 
 `make_polygon_image.py`
+
+### Example output
+
+Original:
+
+![Original](images/Original_53.png)
+
+Binary mask:
+
+![Binary](images/53_mask_13.png)
+
+Labeled mask:
+
+![Labeled](images/53_labeled_mask.png)
