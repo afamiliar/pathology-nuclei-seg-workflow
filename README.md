@@ -22,6 +22,8 @@ Outputs:
 
 ### 3. Generate labeled mask image
 
+Creates an image where each nuclei has a unique label (color), based on polygons in the GeoJSON file.
+
 `make_polygon_image.py`
 
 ### Example output
