@@ -22,7 +22,7 @@ Outputs:
 
 ### 3. Generate labeled mask image
 
-Creates an image where each nuclei has a unique label (color), based on polygons in the GeoJSON file. Excludes cases at the edge of the image (nuclei that are cutoff).
+Creates an image where each nuclei has a unique label (color), based on polygons in the GeoJSON file. Excludes cases at the edge of the image (nuclei that are cutoff). Creates an RGB image with randomized (unique) color values for each object.
 
 `make_polygon_image.py`
 
