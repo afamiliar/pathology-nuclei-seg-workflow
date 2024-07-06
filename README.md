@@ -26,6 +26,14 @@ Creates an image where each nuclei has a unique label (color), based on polygons
 
 `make_polygon_image.py`
 
+Can be converted from 3-channel RGB to 1-channel image of unique IDs with:
+```
+red = im_label[:,:,0]
+green = im_label[:,:,1]
+blue = im_label[:,:,2]
+im_label = (red * 65536) + (green * 256) + blue
+```
+
 ### Example output
 
 Original:
